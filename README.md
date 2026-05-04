@@ -207,3 +207,7 @@ Start the frontend development server:
 npm run dev
 ```
 *The React application will be available at `http://localhost:5173` (or the port specified by Vite).*
+## MONGODB 
+
+<img width="1340" height="641" alt="mongodb" src="https://github.com/user-attachments/assets/9940ea71-d38f-4294-ad6f-8b6a9dd7b075" />
+
