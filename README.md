@@ -14,16 +14,20 @@ This project is a modern, responsive, and robust Learning Management System (LMS
 - **React Router DOM**: For seamless client-side routing and navigation.
 - **Axios**: For handling HTTP requests to the backend API.
 - **Vanilla CSS**: Used for styling, ensuring a flexible, custom, and highly dynamic premium design system.
+  <img width="1347" height="630" alt="Hero Section" src="https://github.com/user-attachments/assets/d032b57b-2aed-42d9-a073-4a7dd8e56c8f" />
+
 
 ### Backend
 - **Node.js & Express.js**: Fast and scalable server environment and framework for handling API routes.
 - **JSON Web Tokens (JWT)**: Used for stateless, secure user authentication.
 - **bcryptjs**: For secure password hashing and verification.
 - **CORS & Dotenv**: For handling cross-origin requests and environment variables.
+<img width="1366" height="645" alt="student dashboard" src="https://github.com/user-attachments/assets/38f9cf84-2699-4f7e-8eef-b3dc4d304c16" />
 
 ### Database
 - **MongoDB**: NoSQL database used to store users, courses, and enrollments.
 - **Mongoose**: ODM (Object Data Modeling) library for MongoDB, providing schema validation and easy database interactions.
+- 
 
 ## LMS Options & Features
 
