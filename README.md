@@ -38,7 +38,6 @@ This project is a modern, responsive, and robust Learning Management System (LMS
 - **Dynamic Animations & Premium UI**: Features typing animations, glassmorphism, hover effects, and modern layouts to wow the users.
 ## Structure of project 
 
-anitiv/
 ├── backend/
 │   ├── .env
 │   ├── .env.example
@@ -121,6 +120,8 @@ anitiv/
 │   └── README.md
 │
 └── README.md
+
+
 
 ## Authentication
 
