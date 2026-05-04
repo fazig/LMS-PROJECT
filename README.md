@@ -3,6 +3,8 @@
 ## Project Overview
 
 This project is a modern, responsive, and robust Learning Management System (LMS) built for the **Hunarmand Punjab Initiative**. It provides a comprehensive platform for instructors to create and manage courses, and for students to enroll and learn. The system features a responsive UI with dynamic animations, role-based dashboards, and secure authentication to deliver a premium educational experience.
+<img width="1352" height="648" alt="about us page" src="https://github.com/user-attachments/assets/36f11bce-415f-4e46-ba32-4503c972ed1b" />
+
 
 ## Technologies Used
 
