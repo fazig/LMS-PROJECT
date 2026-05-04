@@ -36,6 +36,91 @@ This project is a modern, responsive, and robust Learning Management System (LMS
 - **Student Enrollment**: Students can browse available courses, enroll in them, and track their enrolled classes.
 - **User Management**: Admins have the authority to view and manage all users on the platform.
 - **Dynamic Animations & Premium UI**: Features typing animations, glassmorphism, hover effects, and modern layouts to wow the users.
+## Structure of project 
+
+anitiv/
+├── backend/
+│   ├── .env
+│   ├── .env.example
+│   ├── config/
+│   │   └── db.js
+│   ├── controllers/
+│   │   ├── authController.js
+│   │   ├── courseController.js
+│   │   ├── enrollmentController.js
+│   │   └── userController.js
+│   ├── middleware/
+│   │   ├── authMiddleware.js
+│   │   ├── errorMiddleware.js
+│   │   └── roleMiddleware.js
+│   ├── models/
+│   │   ├── Course.js
+│   │   ├── Enrollment.js
+│   │   └── User.js
+│   ├── routes/
+│   │   ├── authRoutes.js
+│   │   ├── courseRoutes.js
+│   │   ├── enrollmentRoutes.js
+│   │   └── userRoutes.js
+│   ├── server.js
+│   ├── utils/
+│   │   └── generateToken.js
+│   ├── tests/
+│   │   └── smoke.js
+│   ├── package.json
+│   ├── package-lock.json
+│   └── README.md
+│
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── CourseCard.jsx
+│   │   │   ├── Footer.jsx
+│   │   │   ├── Loader.jsx
+│   │   │   ├── Navbar.jsx
+│   │   │   └── ProtectedRoute.jsx
+│   │   ├── context/
+│   │   │   └── AuthContext.jsx
+│   │   ├── pages/
+│   │   │   ├── About.jsx
+│   │   │   ├── CourseDetail.jsx
+│   │   │   ├── Courses.jsx
+│   │   │   ├── Home.jsx
+│   │   │   ├── Login.jsx
+│   │   │   ├── Register.jsx
+│   │   │   ├── NotFound.jsx
+│   │   │   ├── Dashboard.jsx
+│   │   │   ├── AdminDashboard.jsx
+│   │   │   ├── InstructorDashboard.jsx
+│   │   │   ├── StudentDashboard.jsx
+│   │   │   ├── admin/
+│   │   │   │   └── Dashboard.jsx
+│   │   │   ├── instructor/
+│   │   │   │   └── Dashboard.jsx
+│   │   │   └── student/
+│   │   │       └── Dashboard.jsx
+│   │   ├── routes/
+│   │   │   ├── AppRoutes.jsx
+│   │   │   └── ProtectedRoute.jsx
+│   │   ├── services/
+│   │   │   ├── api.js
+│   │   │   ├── authService.js
+│   │   │   ├── courseService.js
+│   │   │   ├── enrollmentService.js
+│   │   │   └── userService.js
+│   │   ├── App.jsx
+│   │   ├── main.jsx
+│   │   ├── index.css
+│   │   └── styles.css
+│   ├── index.html
+│   ├── vite.config.js
+│   ├── package.json
+│   ├── package-lock.json
+│   ├── .env.example
+│   ├── LMS-PROJECT.code-workspace
+│   └── README.md
+│
+└── README.md
 
 ## Authentication
 
